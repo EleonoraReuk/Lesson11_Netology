@@ -2,20 +2,20 @@
 
 int main()
 {
-	std::string Word{ "apple" };
+	std::string Word{ "СЏР±Р»РѕРєРѕ" };
 	std::string MyWord;
 
 	do
 	{
-		std::cout << "Угадайте слово: ";
+		std::cout << "РЈРіР°РґР°Р№С‚Рµ СЃР»РѕРІРѕ: ";
 		std::cin >> MyWord;
-		if (MyWord.find("apple") == std::string::npos)
+		if (MyWord.find("СЏР±Р»РѕРєРѕ") == std::string::npos)
 		{
-			std::cout << "Неправильно!" << std::endl;
+			std::cout << "РќРµРїСЂР°РІРёР»СЊРЅРѕ!" << std::endl;
 		}
 		else
 		{
-			std::cout << "Правильно! Вы победили! Загаданное слово - " << Word;
+			std::cout << "РџСЂР°РІРёР»СЊРЅРѕ! Р’С‹ РїРѕР±РµРґРёР»Рё! Р—Р°РіР°РґР°РЅРЅРѕРµ СЃР»РѕРІРѕ - " << Word;
 		}
 	} while (MyWord != Word);
 }
