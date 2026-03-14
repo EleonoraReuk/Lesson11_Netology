@@ -1,13 +1,13 @@
-/*#include <iostream>
+#include <iostream>
 
 int main()
 {
 	std::string Name;
 	std::string Surname;
-	std::cout << "Ââåäèòå èìÿ: ";
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¸Ð¼Ñ: ";
 	std::cin >> Name;
-	std::cout << "Ââåäèòå ôàìèëèþ: ";
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ„Ð°Ð¼Ð¸Ð»Ð¸ÑŽ: ";
 	std::cin >> Surname;
 
-	std::cout << "Çäðàâñòâóéòå, " + Name + " " + Surname + "!";
-}*/
+	std::cout << "Ð—Ð´Ñ€Ð°Ð²ÑÑ‚Ð²ÑƒÐ¹Ñ‚Ðµ, " + Name + " " + Surname + "!";
+}
