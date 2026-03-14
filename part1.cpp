@@ -1,0 +1,13 @@
+/*#include <iostream>
+
+int main()
+{
+	std::string Name;
+	std::string Surname;
+	std::cout << "¬ведите им€: ";
+	std::cin >> Name;
+	std::cout << "¬ведите фамилию: ";
+	std::cin >> Surname;
+
+	std::cout << "«дравствуйте, " + Name + " " + Surname + "!";
+}*/
